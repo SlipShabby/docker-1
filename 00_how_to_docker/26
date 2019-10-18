@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Launch a 42school/engineering-bay service in two replicas and make sure that
+# the service works properly (see the documentation provided at hub.docker.com).
+# This service will be named engineering-bay and will be on the overmind network.
+
+docker service create -d --network overmind --name engineering-bay --replicas 2 -e OC_USERNAME=root -e OC_PASSWD=root 42school/engineering-bay

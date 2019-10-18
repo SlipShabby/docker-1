@@ -1,0 +1,4 @@
+#!/bin/sh
+# Get the hello-world container from the Docker Hub, where it’s available
+
+docker pull hello-world
