@@ -13,6 +13,7 @@ It consists of three parts:
     How to Docker
     Dockerfiles
     Bonus
+
 At the wiki-pages of project you can find detailed explanations for each task.
 
 docker.en.pdf is the task file.
@@ -28,9 +29,9 @@ If you will use git clone <repository url>, you will get the empty app folder in
 
 # Install Homebrew 
 
-1 delete from the homedir .brew 
-    $ cd ~
-    $ rm -rf .brew
+1 delete from the homedir .brew </br>
+    $ cd ~ </br>
+    $ rm -rf .brew </br>
 
 2 install Homebrew with 42 Marvin (message Marvin !brew or !brewbeta)
 
