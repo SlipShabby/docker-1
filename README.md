@@ -71,3 +71,16 @@ brew-42 update;
 ```
 
 Note that this is beta, there might be permission errors for /usr/local.
+
+# Install Docker
+
+$ brew install docker docker-machine
+$ docker --version
+
+Good article to read: 
+https://medium.com/@yutafujii_59175/a-complete-one-by-one-guide-to-install-docker-on-your-mac-os-using-homebrew-e818eb4cfc3
+
+
+
+Best practice to create Dockerfile:
+https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
