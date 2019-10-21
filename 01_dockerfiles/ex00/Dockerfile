@@ -8,5 +8,7 @@ RUN apk update && \
 
 ENTRYPOINT vim
 
-# docker build -t ex00
+# docker-machine start Char
+# eval $(docker-machine env Char)
+# docker build -t ex00 .
 # docker run --rm -ti ex00

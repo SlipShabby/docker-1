@@ -80,7 +80,23 @@ $ docker --version
 Good article to read: 
 https://medium.com/@yutafujii_59175/a-complete-one-by-one-guide-to-install-docker-on-your-mac-os-using-homebrew-e818eb4cfc3
 
+https://vsupalov.com/docker/
 
 
 Best practice to create Dockerfile:
 https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+
+
+FROM ubuntu:18.04
+COPY . /app
+RUN make /app
+CMD python /app/app.py
+
+Each instruction creates one layer:
+
+FROM creates a layer from the ubuntu:18.04 Docker image.
+COPY adds files from your Docker client’s current directory.
+RUN builds your application with make.
+CMD specifies what command to run within the container.
+
+
