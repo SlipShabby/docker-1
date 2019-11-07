@@ -76,10 +76,12 @@ Note that this is beta, there might be permission errors for /usr/local.
 
 $ brew install docker docker-machine
 $ docker --version
+ 
+My articles: 
+https://medium.com/@sd.djaan/how-to-docker-vol-2-0-86236f17a8d1
+https://medium.com/@sd.djaan/how-to-docker-vol-2-0-86236f17a8d1
 
-Good article to read: 
-https://medium.com/@yutafujii_59175/a-complete-one-by-one-guide-to-install-docker-on-your-mac-os-using-homebrew-e818eb4cfc3
-
+Good article to read:
 https://vsupalov.com/docker/
 
 
@@ -98,5 +100,4 @@ FROM creates a layer from the ubuntu:18.04 Docker image.
 COPY adds files from your Docker client’s current directory.
 RUN builds your application with make.
 CMD specifies what command to run within the container.
-
 
